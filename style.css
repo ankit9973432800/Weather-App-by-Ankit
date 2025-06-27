@@ -116,11 +116,6 @@ body{
 }
 
 
-
-
-
-
-
 html, body {
     height: 100%;
     display: flex;
@@ -151,6 +146,7 @@ html, body {
     padding: 15px;
     font-size: 14px;
     color: #333;
+    margin-top: 30px;
 }
 
 .footer a {

@@ -3,10 +3,13 @@
     padding: 0;
     font-family:sans-serif;
     box-sizing: border-box;
+    
 }
 
 body{
     background-color: #222;
+   
+
 
 }
 .card{
@@ -110,4 +113,47 @@ body{
     font-size: 14px;
     margin-top: 10px;
     display: none;
+}
+
+
+
+
+
+
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Navbar Style */
+.navbar {
+    background: linear-gradient(135deg, #5b548a, #00feba);
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+/* Main Content takes full height */
+.main-content {
+    flex: 1;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.footer a {
+    color: #007BFF;
+    text-decoration: none;
 }
